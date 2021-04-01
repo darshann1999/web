@@ -1,0 +1,64 @@
+	body
+	{
+		background-color: red; 
+	}
+	
+	nav
+{
+	background:linear-gradient(45deg,lavender,orange,salmon);
+	padding:10px;
+}
+
+nav a
+{
+	margin: 10px 50px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.fa
+{
+	margin-right: 5px;
+}
+
+	section h1
+	{
+		background: linear-gradient(45deg,limegreen,lavender,tan);
+		box-shadow: 0 0 10px black;
+		margin: 0px;
+		padding:20px;
+		text-align: center;
+	}
+
+	form
+	{
+		background:radial-gradient(lavender,orange,salmon);
+		box-shadow: 0 0 10px black;
+		height: 380px;
+	}
+
+	td
+	{
+		padding: 20px 30px;
+
+	}
+
+	input[type="submit"],input[type="reset"]
+	{
+		padding:5px 20px;
+	}
+
+	footer
+	{
+		text-align: center;
+		background:linear-gradient(salmon,coral,grey);
+		box-shadow: 0 0 10px black;
+		padding:20px;
+		border-radius: 0px 0px 20px 20px;
+	}
+
+	footer h2
+	{
+		margin: 0px;
+	}

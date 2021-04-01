@@ -1,0 +1,113 @@
+body
+{
+	margin:0px;
+}
+
+header
+{
+	background:linear-gradient(45deg,blue,orange,pink);
+	text-align: right;
+}
+
+header h1
+{
+	margin: 0px;
+	padding:20px 50px;
+	color: green;
+	font-size: 40px;
+	text-shadow: 0 0 10px gold;
+}
+
+nav
+{
+	background:linear-gradient(45deg,lavender,orange,salmon);
+	padding:10px;
+}
+
+nav a
+{
+	margin: 10px 50px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.fa
+{
+	margin-right: 6px;
+}
+
+aside
+{
+	background:linear-gradient(45deg,grey,blue);
+	width: 200px;
+	height: 1030px;
+	float: left;
+
+	position: sticky;
+	top: 10px;
+}
+
+aside a
+{
+	text-align: center;
+	color: white;
+	display: block;
+	padding:50px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow: 0 0 10px black;
+}
+
+aside a:hover
+{
+	background:linear-gradient(45deg,red,salmon,pink);
+	border-radius: 0px 10px 10px 0px;
+	box-shadow: 0 0 10px black;
+}
+
+section
+{
+	margin-left:200px;
+	background:linear-gradient(40deg,salmon,coral,cyan);
+	padding: 5px;
+}
+
+article
+{
+	padding:10px;
+	background:linear-gradient(40deg,violet,grey);
+	box-shadow: 0 0 10px black;
+	border-radius: 10px;
+	margin:5px;
+}
+
+article h1
+{
+	margin:0px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+article p
+{
+	text-align: justify;
+	padding: 10px;
+	text-indent: 50px;
+}
+
+footer
+{
+	background:linear-gradient(45deg,blue,orange,pink);
+	margin-left: 200px;
+	padding: 50px;
+}
+
+
+footer h2,footer p
+{
+	margin:0px;
+	text-align: center;
+	
+}
+

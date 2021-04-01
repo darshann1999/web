@@ -1,0 +1,98 @@
+body
+{
+	margin: 0px;
+}
+
+nav
+{
+	background:linear-gradient(45deg,lavender,orange,salmon);
+	padding:10px;
+}
+
+nav a
+{
+	margin: 10px 50px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.fa
+{
+	margin-right: 5px;
+}
+section
+{
+	background:radial-gradient(limegreen,green,lightgreen);
+	padding: 20px;
+	box-shadow: 0 0 10px black;
+}
+
+article 
+{
+	margin:30px;
+	border-radius:10px;	
+	box-shadow: 0 0 10px black;
+}
+
+article:first-child
+{
+	background:radial-gradient(limegreen,aqua,brown);
+}
+
+article:nth-child(2)
+{
+	background:radial-gradient(purple,yellowgreen);
+}
+
+article:last-child
+{
+	background:radial-gradient(gold,orange,yellow);
+}
+
+article:first-child h1
+{
+	margin:0px;
+	text-align: center;
+	padding: 10px;
+	background:radial-gradient(lavender,orange,salmon);
+	text-shadow: 0 0 10px white;
+	font-size: 30px;
+	border-radius: 10px 10px 0px 0px;
+
+}
+
+article:nth-child(2) h1
+{
+	margin:0px;
+	text-align: center;
+	padding: 10px;
+	background:radial-gradient(yellowgreen,lime,lightseagreen);
+	text-shadow: 0 0 10px white;
+	font-size: 30px;
+	border-radius: 10px 10px 0px 0px;
+
+}
+
+article:last-child h1
+{
+	margin:0px;
+	text-align: center;
+	padding: 10px;
+	background:radial-gradient(tomato,red,purple);
+	text-shadow: 0 0 10px white;
+	font-size: 30px;
+	border-radius: 10px 10px 0px 0px;
+
+}
+
+article h1
+{
+	box-shadow: 0 0 10px black;
+}
+
+article p
+{
+	text-align: justify;
+	padding: 10px;
+}

@@ -1,0 +1,44 @@
+body
+{
+	background:radial-gradient(orange,salmon,gold,tan);
+	margin: 0px;
+}
+	
+nav
+{
+	background:linear-gradient(45deg,lavender,orange,salmon);
+	padding:10px;
+}
+
+nav a
+{
+	margin: 10px 50px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.fa
+{
+	margin-right: 5px;
+}
+
+figure
+{
+	display: inline-block;
+	margin:40px 17px;
+	padding:20px;
+	background:linear-gradient(50deg,blue,violet,lavender);
+	box-shadow: 10px 0 10px black;
+	border-radius: 10px;
+}
+
+
+figure img
+{
+	width:250px;
+	height: 150px;
+	border:5px inset gold;
+	border-radius: 10px;
+}
+
